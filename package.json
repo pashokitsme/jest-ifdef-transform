@@ -43,10 +43,10 @@
     "standard-version": "^9.0.0",
     "ts-node": "^10.9.1",
     "typescript": "^4.8.3",
-    "@jest/transform": "^29.0.3"
+    "@jest/transform": "~29"
   },
   "peerDependencies": {
-    "@jest/transform": "^29.0.3"
+    "@jest/transform": "~29"
   },
   "files": [
     "build/main",
