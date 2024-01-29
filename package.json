@@ -23,7 +23,8 @@
     "watch:test": "jest",
     "version": "standard-version",
     "reset-hard": "git clean -dfx && git reset --hard && yarn",
-    "prepare-release": "run-s reset-hard test doc:html version doc:publish"
+    "prepare-release": "run-s reset-hard test doc:html version doc:publish",
+    "postinstall": "npm run build"
   },
   "engines": {
     "node": ">=10"
